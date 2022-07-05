@@ -28,4 +28,8 @@ echo "Loading alacritty config..."
 ln -sf $pwd/.alacritty.yml $HOME
 
 echo ''
+echo "Changing user shell to zsh"
+chsh -s $(which zsh)
+
+echo ''
 echo "Done!"
